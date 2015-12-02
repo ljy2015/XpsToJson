@@ -46,8 +46,9 @@ public class XMLParse {
 				
 				System.out.println(node.attributeCount());
 				
-//				Element attribute=node.attribute("UnicodeString");
-				
+				org.dom4j.Attribute attribute=node.attribute("UnicodeString");
+				if(attribute!=null)
+					System.out.println(attribute.getName()+":"+attribute.getText());
 				
 //				List<String> attributes=node.attributes();
 //				for(Iterator k=attributes.iterator();k.hasNext();){
