@@ -112,16 +112,11 @@ public class XpsToJson {
 	}
 
 	public static void main(String[] args) {
-//		try {
-//			ZipTool.unzip(
-//					new File("E:\\liujiyu\\20150727000007169.zip"),
-//					new File("E:\\liujiyu"));
-//		} catch (IOException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
+
 		
-		readFileByChars("E:\\liujiyu\\新建文件夹\\Report\\Documents\\1\\Pages\\1.fpage");
+		//readFileByChars("E:\\liujiyu\\新建文件夹\\Report\\Documents\\1\\Pages\\1.fpage");
+		XMLParse.ParseXML("E:\\XPS\\Report\\Documents\\1\\Pages\\2.xml");
+	
 	}
 
 }
